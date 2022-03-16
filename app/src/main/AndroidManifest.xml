@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.praktikum.perpus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_text"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_text"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Perpus">
+        <activity
+            android:name=".DetailBookActivity"
+            android:label="@string/details_book" />
+        <activity
+            android:name=".AddBookActivity"
+            android:label="@string/add_book"/>
+        <activity
+            android:name=".ListBookActivity"
+            android:label="@string/list_book"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

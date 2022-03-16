@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Perpustakaan</string>
+    <string name="btn_see_book">Lihat Buku</string>
+    <string name="btn_add_book">Tambah Buku</string>
+    <string name="greetings">Selamat Datang di Perpustakaan!</string>
+    <string name="list_book">Daftar Buku</string>
+    <string name="id_book">ID Buku</string>
+    <string name="title_book">Judul Buku</string>
+    <string name="isbn_book">ISBN</string>
+    <string name="penerbit_book">Penerbit</string>
+    <string name="pengarang_book">Pengarang</string>
+    <string name="tahun_book">Tahun Buku</string>
+    <string name="add_book">Tambahkan</string>
+    <string name="title_add_book">Tambah Buku</string>
+    <string name="details_book">Detail Buku</string>
+    <string name="id_book_pk">10</string>
+    <string name="title_book_pk">Perahu Kertas</string>
+    <string name="isbn_book_pk">922-45678-3</string>
+    <string name="penerbit_book_pk">Bentang Pustaka</string>
+    <string name="pengarang_book_pk">Dee Lestari</string>
+    <string name="tahun_book_pk">2009</string>
+    <string name="see_details">Detail</string>
+</resources>

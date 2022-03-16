@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/frame"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/id_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_id_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_title_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/isbn_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_isbn_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/penerbit_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_penerbit_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pengarang_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_pengarang_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tahun_book"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:id="@+id/edt_tahun_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/btn_add_book"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_book"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
